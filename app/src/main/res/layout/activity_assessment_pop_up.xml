@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Assesment Result"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/levScore"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/brkScore"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Leave Score :"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/levtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/brkScore"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/levScore"
+            android:text="this is me"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/brkScore"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Break Score :"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/brktxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/brkScore"
+            android:text="this is me"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/posScore"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/levScore"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Posture Score :"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/postxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/levScore"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/posScore"
+            android:text="this is me"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/disScore"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/postxt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Discomfort Score :"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/distxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/postxt"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/disScore"
+            android:text="this is me"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/painScore"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/distxt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Pain Score :"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/paintxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/distxt"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/painScore"
+            android:text="this is me"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalScore"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paintxt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Total Score :"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totaltxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paintxt"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/totalScore"
+            android:text="this is me"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/remaktxt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totaltxt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Remarks:"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totaltxt"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/remaktxt"
+            android:text="this is me"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">ErgoCheck</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+
+
+    <string-array name="title11">
+        <item>Body Pains</item>
+        <item>Muscle Pains</item>
+        <item>Fatigue</item>
+        <item>Headache</item>
+    </string-array>
+
+    <string-array name="recommendation11">
+        <item>
+            Pain may be as a result of work posture and awkward movement may cause muscle strain\n\n
+       Recommendation:\n
+       Stretching and exercise is needed.
+        </item>
+
+
+        <item>
+            "Pain may be as a result of work posture and awkward movement may cause muscle strain\n\n"
+    "Recommendation:\n"
+    " Stretching and exercise is needed."
+        </item>
+
+
+        <item>
+            "it is caused by long shifts without adequate rest or break resulting into weariness and decreasing the efficiency of performance of individual.\n\n"
+    "Recommendation:\n"
+    " Avoid working for a longer hour without break.\n"
+    " Adequate rest is required."
+        </item>
+
+
+        <item>
+            "It is as a result of fatigue.\n\n"
+    "Recommendation:\n"
+    " Adequate and proper resting is necessary.\n"
+    " If need be, see a doctor.\n"
+        </item>
+
+    </string-array>
+    <integer-array name="image11">
+        <item>@drawable/body_pain</item>
+        <item>@drawable/muscle_pain</item>
+        <item>@drawable/fatigue</item>
+        <item>@drawable/headache</item>
+    </integer-array>
+    <string-array name="title12">
+        <item>5 hours</item>
+        <item>7 hours</item>
+        <item>9 hours</item>
+
+    </string-array>
+    <string-array name="recommendation12">
+        <item>
+
+    "Recommendation:\n"
+    "For  every 5 hours of operation,observe at least 30 minutes break.\n"
+        </item>
+
+
+        <item>
+
+       Recommendation:\n
+       "For  every 7 hours of operation,observe at least 1 hour break.\n"
+        </item>
+
+
+        <item>
+
+            Recommendation:\n
+       "For  every 9 hours of operation,observe at least 1 hour 30 minutes break.\n"
+        </item>
+
+
+    </string-array>
+
+    <string-array name="title13">
+        <item>Sitting</item>
+        <item>Standing</item>
+        <item>Bending</item>
+    </string-array>
+
+    <string-array name="recommendation13">
+        <item>
+            Likely effect on the body : Sitting for longer period of time without rest or break  may result into back pain and
+            some other discomforts \n\n
+    "Recommendation:\n"
+    "Avoid sitting for a longer period without stretching your body.\n"
+        </item>
+
+
+        <item>
+       Likely effect on the body :Standing for a longer period may result into Leg pain, and general body pain.\n\n
+       Recommendation:\n
+       "Avoid standing for a longer period on a spot. Try sitting down for atleast 5 minutes for every 30 minutes of operation.\n"
+        </item>
+
+
+        <item>
+       Likely effect on the body : bending for a longer period of time during operation may result into severe back pain, neck pain and also
+            fatigue.\n\n
+       Recommendation:\n
+       "Little exercise and stretching of body  muscles and joints for atleast 3 minutes for every 15 minutes of bending.\n"
+        </item>
+
+
+    </string-array>
+
+    <string-array name="title14">
+        <item>Neck</item>
+        <item>Wrist</item>
+        <item>Lower Arm</item>
+        <item>Upper Arm</item>
+        <item>Back pain</item>
+        <item>Shoulder pain</item>
+        <item>Waist</item>
+    </string-array>
+
+    <string-array name="recommendation14">
+        <item>
+           "Pain may be as a result of neck position while performing task.\n\n "
+    "Recommendation:\n"
+    " If work operation require twisting or bending of neck a minute of stretching is necessary before performing the next task.\n"
+
+        </item>
+
+
+        <item>
+           "Pain may be as a result of weight of the product carried.\n\n"
+    "Recommendation:\n"
+    " Weight above 20kg must be avoided.\n"
+    " Proper and gentle twist of the wrist in to and fro direction."
+        </item>
+
+
+        <item>
+            "it may be as a result of muscle strain, poor posture e.t.c\n\n"
+    "Recommendation:\n"
+    " stretching and exercise is required by turning of arm and the wrist to where the palm is faced downward."
+        </item>
+
+
+        <item>
+           "Pain is caused by position of the shoulder and also when the body is leaning too much on it.\n\n"
+    "Recommendation:\n"
+    " Exercise and stretching may be necessary and also use of arm rest is needed."
+        </item>
+
+        <item>
+             "Pain may be as a result of bending for a longer period of time and insufficient back rest.\n\n"
+    "Recommendation:\n"
+    " Observe a minute stretch for every three (3) minutes of bending.\n"
+    " Avoid bending for a longer period.\n"
+    " for further advice, see a doctor."
+        </item>
+
+        <item>
+           " Pain may be as a result of overload i.e carrying load more than 20kg and also if the shoulder is raised for a longer period while performing task.\n\n"
+    "Recommendation:\n"
+    " Avoid overweight or overload.\n"
+    " Stretching the shoulder is necessary."
+        </item>
+
+        <item>
+            "Sitting too long while performing task without break or rest usually cause waist pains.\n\n"
+    "Recommendation:\n"
+    " Avoid sitting for a longer period without rest.\n"
+    " If need be, see a doctor."
+        </item>
+
+    </string-array>
+
+
+    <string-array name="title15">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+    <string-array name="recommendation15">
+        <item>
+
+    "Recommendation:\n"
+    "Always note that self medication endangers one's health.Consult a doctor for medical advice.\n"
+        </item>
+
+        <item>
+
+        Recommendation:\n
+       " Don't ever use drugs to excite yourself.\n"
+        </item>
+
+    </string-array>
+
+
+    <!--<string-array name="title21">-->
+    <!--<item>Neck</item>-->
+    <!--<item>Body Pains</item>-->
+    <!--<item>Back pain</item>-->
+
+    <!--</string-array>-->
+    <!--<string-array name="recommendation21">-->
+    <!--<item>-->
+    <!--"Pain may be as a result of neck position while performing task.\n\n "-->
+    <!--"Recommendation:\n"-->
+    <!--" If work operation require twisting or bending of neck.\n"-->
+    <!--" a minute of stretching is necessary before performing the next task."-->
+    <!--</item>-->
+
+
+    <!--<item>-->
+    <!--Pain may be as a result of work posture and awkward movement may cause muscle strain\n\n-->
+    <!--Recommendation:\n-->
+    <!--Stretching and exercise is needed.-->
+    <!--</item>-->
+
+
+    <!--<item>-->
+    <!--"Pain may be due to too much bending for a longer period of time and also as a result of not using back rest.\n\n"-->
+    <!--"Recommendation:\n"-->
+    <!--" Observe a minute stretch for every three (3) minutes of bending.\n"-->
+    <!--" Avoid bending for a longer period.\n"-->
+    <!--" If need be see your doctor."-->
+    <!--</item>-->
+
+
+    <!--</string-array>-->
+
+
+    <!--<string-array name="title21">-->
+    <!--<item>Neck</item>-->
+    <!--<item>Body Pains</item>-->
+    <!--<item>Back pain</item>-->
+
+    <!--</string-array>-->
+    <!--<string-array name="recommendation21">-->
+    <!--<item>-->
+    <!--"Pain may be as a result of neck position while performing task.\n\n "-->
+    <!--"Recommendation:\n"-->
+    <!--" If work operation require twisting or bending of neck.\n"-->
+    <!--" a minute of stretching is necessary before performing the next task."-->
+    <!--</item>-->
+
+
+    <!--<item>-->
+    <!--Pain may be as a result of work posture and awkward movement may cause muscle strain\n\n-->
+    <!--Recommendation:\n-->
+    <!--Stretching and exercise is needed.-->
+    <!--</item>-->
+
+
+    <!--<item>-->
+    <!--"Pain may be due to too much bending for a longer period of time and also as a result of not using back rest.\n\n"-->
+    <!--"Recommendation:\n"-->
+    <!--" Observe a minute stretch for every three (3) minutes of bending.\n"-->
+    <!--" Avoid bending for a longer period.\n"-->
+    <!--" If need be see your doctor."-->
+    <!--</item>-->
+
+
+    <!--</string-array>-->
+
+
+    <string-array name="title31">
+        <item>20kg(2 bags)</item>
+        <item>40kg(4 bags)</item>
+    </string-array>
+
+
+    <string-array name="recommendation31">
+        <item>
+            Likely effect on the body : a little pain may be felt in the upper arm if the load is carried for a longer time depending on the distance.\n\n
+    "Recommendation:\n"
+    "Rest in-between intervals of operations,stretching of arms and muscles are needed.\n"
+        </item>
+
+
+        <item>
+       Likely effect on the body :severe back pain,muscle pain,neck pain,upper and lower arm pain and joints pain.\n\n
+       Recommendation:\n
+       "Avoid over load.\n"
+        </item>
+
+    </string-array>
+
+
+    <string-array name="title32">
+        <item>slip</item>
+        <item>fall</item>
+    </string-array>
+
+
+    <string-array name="recommendation32">
+        <item>
+            Likely cause : water droplets on the floor,wearing of slippery footwears and also a slippery floor.\n\n
+    "Recommendation:\n"
+    "Regular cleaning of floor for any droplet noticed.\n"
+     "Avoid wearing slippers or a slippery footwear.
+        </item>
+
+
+        <item>
+       Likely cause: Inbalance of weight,fatigue and also overload.\n\n
+       Recommendation:\n
+            "Balance up the quatity of weight carried on both arms.\n"
+       "Avoid over load.\n"
+            Resting for some periods of time to avoid fatigue.\n"
+        </item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

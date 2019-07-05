@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:bakground="@color/colorPrimary"-->
+            <!--android:id="@+id/backButton"-->
+            <!--/>-->
+
+        <!--&lt;!&ndash;<ImageButton&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="center_vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="#2e095a"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:src="@drawable/scholarship_main"/>&ndash;&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Questions"-->
+            <!--android:textColor="#fff"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:textSize="18dp"-->
+            <!--android:id="@+id/title"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:typeface="sans"/>-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ErgoCheck"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:layout_marginTop="120dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please select the machine you use"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            tools:layout_editor_absoluteX="64dp" />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:id="@+id/machineUsedSpinner"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/spinner_own"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:weightSum="1">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#fff"
+                android:text="Accident Recommendation"
+                android:id="@+id/accidentReccommendationButton"
+                android:textSize="14sp"
+                android:layout_weight="0.5"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/curve_no_background_blue"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#fff"
+                android:text="Work Design Recommendation"
+                android:layout_weight="0.5"
+                android:id="@+id/workRecommendationButton"
+                android:layout_margin="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/curve_no_background_blue"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+    <!--<Spinner-->
+        <!--android:layout_width="368dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/machineUsedSpinner"-->
+        <!--android:inputType="text"-->
+        <!--android:typeface="sans"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:background="@drawable/curve_no_background"-->
+        <!--tools:layout_editor_absoluteY="0dp"-->
+        <!--tools:layout_editor_absoluteX="8dp" />-->
+
+</LinearLayout>

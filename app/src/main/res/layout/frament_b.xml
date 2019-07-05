@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lower_grid"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Locate Wrist Position at work"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/upper_grid"
+                android:layout_marginTop="15dp"
+                android:text="Locate Lower Arm Position at work"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_marginTop="12dp"
+                android:text="Locate Upper Arm Position at work"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <GridView
+                android:id="@+id/upper_grid"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:horizontalSpacing="10dp"
+                android:listSelector="@drawable/image_overlay"
+                android:numColumns="3"
+                android:verticalSpacing="10dp">
+
+            </GridView>
+
+            <GridView
+                android:id="@+id/wrist_grid"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:columnWidth="100dp"
+                android:horizontalSpacing="10dp"
+                android:listSelector="@drawable/image_overlay"
+                android:numColumns="2"
+                android:verticalSpacing="10dp">
+
+
+            </GridView>
+
+
+            <GridView
+                android:id="@+id/lower_grid"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/background"
+                android:columnWidth="100dp"
+                android:horizontalSpacing="10dp"
+                android:listSelector="@drawable/image_overlay"
+                android:numColumns="2"
+                android:verticalSpacing="10dp">
+
+
+            </GridView>
+
+            <TextView
+                android:id="@+id/textVie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrist_grid"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:text="Activity Score"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:id="@+id/activity_layout"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@+id/textVie"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@mipmap/background">
+
+                    <CheckBox
+                        android:id="@+id/check1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="one or more body parts are held for longer than 1 minute (static)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/check2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/check1"
+                        android:text="Repeated small range actions (more than 4x per minute)"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/check3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/check2"
+                        android:text="Action causes rapid large range changes in postures or unstable base"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/subBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignEnd="@+id/wrist_grid"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/wrist_grid"
+                android:layout_below="@+id/activity_layout"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/curve_no_background_blue"
+                android:text="SUBMIT"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
